@@ -1,0 +1,25 @@
+{
+  "name": "quiz-backend",
+  "version": "1.0.0",
+  "description": "It manages the database and API calls of quiz application.",
+  "keywords": [
+    "quiz"
+  ],
+  "license": "ISC",
+  "author": "Nand Patel",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^12.2.0",
+    "nodemon": "^3.1.10"
+  }
+}
